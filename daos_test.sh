@@ -8,7 +8,7 @@ client_pthread_num=$1
 server_pthread_num=$2
 test_pid=$3
 
-Flame_bin_path=${HOME}/FlameGraph
+Flame_bin_path=${HOME}/daos_flame/FlameGraph
 test_path=${HOME}/daos_flame
 sub_path=${HOME}/daos_flame/${client_pthread_num}_${server_pthread_num}
 
